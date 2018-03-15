@@ -1,0 +1,191 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>baguetteBox.js | Demo</title>
+    <link rel="stylesheet" href="css/baguetteBox.css">
+    <style>
+body {
+    background-color: #666;
+    color: #ddd;
+    font-family: Helvetica, Arial, sans-serif;
+    margin: 0;
+}
+
+a, a:visited {
+    color: #9EB4CA;;
+    text-decoration: none;
+}
+
+h1, h2, h3, footer, .gallery {
+    text-align: center;
+}
+
+pre {
+    width: 340px;
+    margin: 0 auto;
+    border: dashed 1px #aaa;
+    margin-bottom: 10px;
+}
+
+@media (max-width: 480px) {
+    pre {
+        max-width: 98%;
+    }
+}
+
+header, footer {
+    display: block;
+    padding: .2em 0;
+    background-color: #555;
+    box-shadow: 0 0 8px #222;
+}
+
+footer {
+    margin-top: 1.5em;
+}
+
+.content {
+    max-width: 1160px;
+    margin: 0 auto;
+}
+
+.gallery:after {
+    content: '';
+    display: block;
+    height: 2px;
+    margin: .5em 0 1.4em;
+    background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0) 0%, rgba(77,77,77,1) 50%, rgba(0, 0, 0, 0) 100%);
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0) 0%, rgba(77,77,77,1) 50%, rgba(0, 0, 0, 0) 100%);
+}
+
+.gallery img {
+    height: 100%;
+}
+
+.gallery a {
+    width: 240px;
+    height: 180px;
+    display: inline-block;
+    overflow: hidden;
+    margin: 4px 6px;
+    box-shadow: 0 0 4px -1px #000;
+}
+
+.ribbon > img {
+    position: absolute;
+    top: 0;
+    right: 0;
+    border: 0;
+}
+
+@media (max-width: 768px) {
+    .sm-hidden {
+        display: none;
+    }
+}
+
+/* Highlight.js Tomorrow Night style */
+.hljs-comment,.hljs-quote{color:#969896}.hljs-deletion,.hljs-name,.hljs-regexp,.hljs-selector-class,.hljs-selector-id,.hljs-tag,.hljs-template-variable,.hljs-variable{color:#c66}.hljs-tag {color: #f8f8f2}.hljs-built_in,.hljs-builtin-name,.hljs-link,.hljs-literal,.hljs-meta,.hljs-number,.hljs-params,.hljs-type{color:#de935f}.hljs-attr{color:#f0c674}.hljs-addition,.hljs-bullet,.hljs-string,.hljs-symbol{color:#b5bd68}.hljs-section,.hljs-title{color:#81a2be}.hljs-keyword,.hljs-selector-tag{color:#b294bb}.hljs{display:block;overflow-x:auto;background:#1d1f21;color:#c5c8c6;padding:.8em}.hljs-emphasis{font-style:italic}.hljs-strong{font-weight:700}
+    </style>
+</head>
+<body>
+ 
+<header>
+    <h1>保利花园</h1>   
+</header>
+<div class="content">
+    <h2>保利花园诚意出租</h2>
+    <div class="baguetteBoxOne gallery">
+        <a href="img/户型图.jpg" data-caption="户型图">
+            <img src="img/户型图.jpg" alt="户型图">
+        </a>
+        <a href="img/厨房.jpg" data-caption="厨房">
+            <img src="img/厨房.jpg" alt="厨房">
+        </a>
+         <a href="img/客厅1.jpg" data-caption="客厅1">
+            <img src="img/客厅1.jpg" alt="客厅1">
+        </a>
+         <a href="img/客厅2.jpg" data-caption="客厅2">
+            <img src="img/客厅2.jpg" alt="客厅2">
+        </a>
+         <a href="img/主卧.jpg" data-caption="主卧">
+            <img src="img/主卧.jpg" alt="主卧">
+        </a>
+         <a href="img/卧室2.jpg" data-caption="卧室2">
+            <img src="img/卧室2.jpg" alt="卧室2">
+        </a>
+         <a href="img/卫生间.jpg" data-caption="卫生间">
+            <img src="img/卫生间.jpg" alt="卫生间">
+        </a>
+         <a href="img/名片1.jpg" data-caption="名片1">
+            <img src="img/名片1.jpg" alt="名片1">
+        </a>
+    </div>    
+<footer>
+	<center>
+	    <table border="1" style="font-size: 20px;">
+	    	<tr>
+	    		<td>面积:</td>
+	    		<td>110平</td>
+	    	</tr>
+	    	<tr>
+	    		<td>楼层:</td>
+	    		<td>6/10</td>
+	    	</tr>
+	    	<tr>
+	    		<td>配备电梯:</td>
+	    		<td>有</td>
+	    	</tr>
+	    	<tr>
+	    		<td>租金:</td>
+	    		<td style="color: red;font-size: 30px;">3200</td>
+	    	</tr>
+			<tr>
+	    		<td>户型介绍:</td>
+	    		<td>此房为中间楼层，无遮挡，视野开阔，采光充足；为南北通透户型，三室两厅一厨两卫，客厅阳台朝北，主卧朝南带独立卫生间。</td>
+	    	</tr>                  
+	    	<tr>
+	    		<td>特点:</td>
+	    		<td>保利花园地处光谷商圈，位于雄楚大街和关山大道交汇处。小区有40栋楼，以小高层和多层为主，保利物业，绿化覆盖率42.37%，文化底蕴浓厚，配有游泳池，网球场，健身房，幼儿园，花园等，适宜居住。</td>
+	    	</tr> 
+	    </table>
+    </center>
+
+
+    <p>诚意出租，中介勿扰 <a href="https://unsplash.com/">unsplash.com</a> </p>
+    <p>Copyright &copy; 2018 <a href="https://github.com/feimosi/">格调先生</a></p>
+</footer>
+<script src="js/baguetteBox.js" async></script>
+<script src="js/highlight.min.js" async></script>
+<!--[if lt IE 9]>
+<script>
+var oldIE = true;
+</script>
+<![endif]-->
+<script>
+window.onload = function() {
+    baguetteBox.run('.baguetteBoxOne');
+    baguetteBox.run('.baguetteBoxTwo');
+    baguetteBox.run('.baguetteBoxThree', {
+        animation: 'fadeIn',
+        noScrollbars: true
+    });
+    baguetteBox.run('.baguetteBoxFour', {
+        buttons: false
+    });
+    baguetteBox.run('.baguetteBoxFive', {
+        captions: function(element) {
+            return element.getElementsByTagName('img')[0].alt;
+        }
+    });
+
+    if (typeof oldIE === 'undefined' && Object.keys) {
+        hljs.initHighlighting();
+    }
+};
+</script>
+</body>
+</html>
