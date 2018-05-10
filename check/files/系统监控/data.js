@@ -1,0 +1,424 @@
+﻿$axure.loadCurrentPage({
+  "url":"系统监控.html",
+  "generationDate":new Date(1525962190831.22),
+  "isCanvasEnabled":false,
+  "variables":["OnLoadVariable"],
+  "page":{
+    "packageId":"444ddfdbe56e4ad9a27c9f572b87d202",
+    "type":"Axure:Page",
+    "name":"系统监控",
+    "notes":{
+},
+    "style":{
+      "baseStyle":"627587b6038d43cca051c114ac41ad32",
+      "pageAlignment":"near",
+      "fill":{
+        "fillType":"solid",
+        "color":0xFFFFFFFF},
+      "image":null,
+      "imageHorizontalAlignment":"near",
+      "imageVerticalAlignment":"near",
+      "imageRepeat":"auto",
+      "favicon":null,
+      "sketchFactor":"0",
+      "colorStyle":"appliedColor",
+      "fontName":"Applied Font",
+      "borderWidth":"0"},
+    "adaptiveStyles":{
+},
+    "interactionMap":{
+},
+    "diagram":{
+      "objects":[{
+          "id":"b25d267a1fd34d99aa95a3c3f23f0a3a",
+          "label":"",
+          "type":"buttonShape",
+          "styleType":"buttonShape",
+          "visible":true,
+          "style":{
+            "fontName":"'Applied Font Regular', 'Applied Font'",
+            "location":{
+              "x":70,
+              "y":50},
+            "size":{
+              "width":100,
+              "height":60}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"3e3fe36672644fdb95867b15a47f90fa",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "fontName":"'Applied Font Regular', 'Applied Font'",
+                "location":{
+                  "x":70,
+                  "y":50},
+                "size":{
+                  "width":100,
+                  "height":60}},
+              "adaptiveStyles":{
+}}],
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 index",
+                      "target":{
+                        "targetType":"page",
+                        "url":"index.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true,
+          "images":{
+            "normal~":"images/index/u2.png"}},
+{
+          "id":"e8098c16dd4649a49538ce7b4974500d",
+          "label":"",
+          "type":"buttonShape",
+          "styleType":"buttonShape",
+          "visible":true,
+          "style":{
+            "fontName":"'Applied Font Regular', 'Applied Font'",
+            "location":{
+              "x":200,
+              "y":50},
+            "size":{
+              "width":100,
+              "height":60}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"d9d53d3f3dc74213b8c1d36dda36df5b",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "fontName":"'Applied Font Regular', 'Applied Font'",
+                "location":{
+                  "x":200,
+                  "y":50},
+                "size":{
+                  "width":100,
+                  "height":60}},
+              "adaptiveStyles":{
+}}],
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 事件查询",
+                      "target":{
+                        "targetType":"page",
+                        "url":"事件查询.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true,
+          "images":{
+            "normal~":"images/index/u2.png"}},
+{
+          "id":"ecdd6479693b4f908e6a3bff4bf9c70a",
+          "label":"",
+          "type":"buttonShape",
+          "styleType":"buttonShape",
+          "visible":true,
+          "style":{
+            "fontName":"'Applied Font Regular', 'Applied Font'",
+            "location":{
+              "x":340,
+              "y":50},
+            "size":{
+              "width":100,
+              "height":60}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"80da5dce94ae470e980c39480504388a",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "fontName":"'Applied Font Regular', 'Applied Font'",
+                "location":{
+                  "x":340,
+                  "y":50},
+                "size":{
+                  "width":100,
+                  "height":60}},
+              "adaptiveStyles":{
+}}],
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 系统配置",
+                      "target":{
+                        "targetType":"page",
+                        "url":"系统配置.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true,
+          "images":{
+            "normal~":"images/index/u2.png"}},
+{
+          "id":"bb4663771096493991147b9847c1a78a",
+          "label":"",
+          "type":"buttonShape",
+          "styleType":"buttonShape",
+          "visible":true,
+          "style":{
+            "fontName":"'Applied Font Regular', 'Applied Font'",
+            "location":{
+              "x":610,
+              "y":50},
+            "size":{
+              "width":100,
+              "height":60}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"a8b33aebac464d53bd24bf20af0afd8f",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "fontName":"'Applied Font Regular', 'Applied Font'",
+                "location":{
+                  "x":610,
+                  "y":50},
+                "size":{
+                  "width":100,
+                  "height":60}},
+              "adaptiveStyles":{
+}}],
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 系统日志",
+                      "target":{
+                        "targetType":"page",
+                        "url":"系统日志.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true,
+          "images":{
+            "normal~":"images/index/u2.png"}},
+{
+          "id":"2cd907e413a44c3390095ab96dda2278",
+          "label":"",
+          "type":"buttonShape",
+          "styleType":"buttonShape",
+          "visible":true,
+          "style":{
+            "fontName":"'Applied Font Regular', 'Applied Font'",
+            "fill":{
+              "fillType":"solid",
+              "color":0xFF0066CC},
+            "location":{
+              "x":730,
+              "y":50},
+            "size":{
+              "width":100,
+              "height":60}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"02c7d4c9c0c74aaeba250824ee3a55c8",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "fontName":"'Applied Font Regular', 'Applied Font'",
+                "fill":{
+                  "fillType":"solid",
+                  "color":0xFF0066CC},
+                "location":{
+                  "x":730,
+                  "y":50},
+                "size":{
+                  "width":100,
+                  "height":60}},
+              "adaptiveStyles":{
+}}],
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 系统监控",
+                      "target":{
+                        "targetType":"page",
+                        "url":"系统监控.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true,
+          "images":{
+            "normal~":"images/index/u0.png"}},
+{
+          "id":"796929a18c7f4cc2861ff467b1c8a622",
+          "label":"",
+          "type":"horizontalLine",
+          "styleType":"horizontalLine",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":40,
+              "y":130},
+            "size":{
+              "width":800,
+              "height":10}},
+          "adaptiveStyles":{
+},
+          "images":{
+            "start~":"resources/images/transparent.gif",
+            "end~":"resources/images/transparent.gif",
+            "line~":"images/index/u118_line.png"}},
+{
+          "id":"d07dc611643845fa8e953ad6c7930110",
+          "label":"",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":true,
+          "style":{
+            "fontName":"'Applied Font Regular', 'Applied Font'",
+            "location":{
+              "x":40,
+              "y":174},
+            "size":{
+              "width":276,
+              "height":236}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"20bfc87e76b94b39ab39755d8b171175",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "fontName":"'Applied Font Regular', 'Applied Font'",
+                "location":{
+                  "x":40,
+                  "y":174},
+                "size":{
+                  "width":276,
+                  "height":236}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/系统监控/u11.png"}},
+{
+          "id":"e847888b5de54d6291ef0bdc7fce39ca",
+          "label":"",
+          "type":"buttonShape",
+          "styleType":"buttonShape",
+          "visible":true,
+          "style":{
+            "fontName":"'Applied Font Regular', 'Applied Font'",
+            "location":{
+              "x":470,
+              "y":50},
+            "size":{
+              "width":100,
+              "height":60}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"d35656e502434c1e9984f3afef6bc964",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "fontName":"'Applied Font Regular', 'Applied Font'",
+                "location":{
+                  "x":470,
+                  "y":50},
+                "size":{
+                  "width":100,
+                  "height":60}},
+              "adaptiveStyles":{
+}}],
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 userManer",
+                      "target":{
+                        "targetType":"page",
+                        "url":"usermaner.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true,
+          "images":{
+            "normal~":"images/index/u2.png"}}]}},
+  "masters":{
+},
+  "objectPaths":{
+    "b25d267a1fd34d99aa95a3c3f23f0a3a":{
+      "scriptId":"u0"},
+    "3e3fe36672644fdb95867b15a47f90fa":{
+      "scriptId":"u1"},
+    "e8098c16dd4649a49538ce7b4974500d":{
+      "scriptId":"u2"},
+    "d9d53d3f3dc74213b8c1d36dda36df5b":{
+      "scriptId":"u3"},
+    "ecdd6479693b4f908e6a3bff4bf9c70a":{
+      "scriptId":"u4"},
+    "80da5dce94ae470e980c39480504388a":{
+      "scriptId":"u5"},
+    "bb4663771096493991147b9847c1a78a":{
+      "scriptId":"u6"},
+    "a8b33aebac464d53bd24bf20af0afd8f":{
+      "scriptId":"u7"},
+    "2cd907e413a44c3390095ab96dda2278":{
+      "scriptId":"u8"},
+    "02c7d4c9c0c74aaeba250824ee3a55c8":{
+      "scriptId":"u9"},
+    "796929a18c7f4cc2861ff467b1c8a622":{
+      "scriptId":"u10"},
+    "d07dc611643845fa8e953ad6c7930110":{
+      "scriptId":"u11"},
+    "20bfc87e76b94b39ab39755d8b171175":{
+      "scriptId":"u12"},
+    "e847888b5de54d6291ef0bdc7fce39ca":{
+      "scriptId":"u13"},
+    "d35656e502434c1e9984f3afef6bc964":{
+      "scriptId":"u14"}}});

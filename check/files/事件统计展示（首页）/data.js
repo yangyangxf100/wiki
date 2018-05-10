@@ -1,0 +1,73 @@
+﻿$axure.loadCurrentPage({
+  "url":"事件统计展示（首页）.html",
+  "generationDate":new Date(1525962190425.2),
+  "isCanvasEnabled":false,
+  "variables":["OnLoadVariable"],
+  "page":{
+    "packageId":"ad2111597a1e475b9922cbde0239b0d1",
+    "type":"Axure:Page",
+    "name":"事件统计展示（首页）",
+    "notes":{
+},
+    "style":{
+      "baseStyle":"627587b6038d43cca051c114ac41ad32",
+      "pageAlignment":"near",
+      "fill":{
+        "fillType":"solid",
+        "color":0xFFFFFFFF},
+      "image":null,
+      "imageHorizontalAlignment":"near",
+      "imageVerticalAlignment":"near",
+      "imageRepeat":"auto",
+      "favicon":null,
+      "sketchFactor":"0",
+      "colorStyle":"appliedColor",
+      "fontName":"Applied Font",
+      "borderWidth":"0"},
+    "adaptiveStyles":{
+},
+    "interactionMap":{
+},
+    "diagram":{
+      "objects":[{
+          "id":"09dc2b58024c4462bd8b9450a8466dcf",
+          "label":"",
+          "type":"buttonShape",
+          "styleType":"paragraph",
+          "visible":true,
+          "style":{
+            "fontName":"'Applied Font Regular', 'Applied Font'",
+            "location":{
+              "x":128,
+              "y":170},
+            "size":{
+              "width":456,
+              "height":16}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"595674c18e054a04bef7618d715c4c10",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "fontName":"'Applied Font Regular', 'Applied Font'",
+                "location":{
+                  "x":128,
+                  "y":170},
+                "size":{
+                  "width":456,
+                  "height":16}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"resources/images/transparent.gif"}}]}},
+  "masters":{
+},
+  "objectPaths":{
+    "09dc2b58024c4462bd8b9450a8466dcf":{
+      "scriptId":"u0"},
+    "595674c18e054a04bef7618d715c4c10":{
+      "scriptId":"u1"}}});
