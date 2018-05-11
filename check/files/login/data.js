@@ -1,6 +1,6 @@
 ﻿$axure.loadCurrentPage({
   "url":"login.html",
-  "generationDate":new Date(1525962190075.18),
+  "generationDate":new Date(1525998070340.96),
   "isCanvasEnabled":false,
   "variables":["OnLoadVariable"],
   "page":{
@@ -191,7 +191,7 @@
           "style":{
             "location":{
               "x":171,
-              "y":349},
+              "y":423},
             "size":{
               "width":560,
               "height":10}},
@@ -213,7 +213,7 @@
               "y":135},
             "size":{
               "width":10,
-              "height":220}},
+              "height":295}},
           "adaptiveStyles":{
 },
           "images":{
@@ -221,18 +221,18 @@
             "end~":"resources/images/transparent.gif",
             "line~":"images/login/u9_line.png"}},
 {
-          "id":"fc62754b389543fa96f3c9e638599950",
+          "id":"8d490962cad84d6a82269655fdcb1d59",
           "label":"",
           "type":"verticalLine",
           "styleType":"verticalLine",
           "visible":true,
           "style":{
             "location":{
-              "x":724,
+              "x":725,
               "y":135},
             "size":{
               "width":10,
-              "height":220}},
+              "height":295}},
           "adaptiveStyles":{
 },
           "images":{
@@ -262,5 +262,5 @@
       "scriptId":"u8"},
     "7da47038558648f78f39e84795eaab3b":{
       "scriptId":"u9"},
-    "fc62754b389543fa96f3c9e638599950":{
+    "8d490962cad84d6a82269655fdcb1d59":{
       "scriptId":"u10"}}});

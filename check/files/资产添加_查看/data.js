@@ -1,6 +1,6 @@
 ﻿$axure.loadCurrentPage({
   "url":"资产添加_查看.html",
-  "generationDate":new Date(1525962190342.19),
+  "generationDate":new Date(1525998070721.97),
   "isCanvasEnabled":false,
   "variables":["OnLoadVariable"],
   "page":{
@@ -541,7 +541,70 @@
                       "linkType":"current"}]}]}},
           "tabbable":true,
           "images":{
-            "normal~":"images/index/u2.png"}}]}},
+            "normal~":"images/index/u2.png"}},
+{
+          "id":"53a80392e4a54d97942281d612bcfa90",
+          "label":"",
+          "type":"button",
+          "styleType":"button",
+          "visible":true,
+          "style":{
+            "fontName":"'Applied Font Regular', 'Applied Font'",
+            "fontSize":"16px",
+            "location":{
+              "x":310,
+              "y":395},
+            "size":{
+              "width":100,
+              "height":25}},
+          "adaptiveStyles":{
+},
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 index",
+                      "target":{
+                        "targetType":"page",
+                        "url":"index.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true},
+{
+          "id":"11ae9074ba57489899d3bde836c22679",
+          "label":"",
+          "type":"button",
+          "styleType":"button",
+          "visible":true,
+          "style":{
+            "fontName":"'Applied Font Regular', 'Applied Font'",
+            "location":{
+              "x":190,
+              "y":395},
+            "size":{
+              "width":100,
+              "height":25}},
+          "adaptiveStyles":{
+},
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 index",
+                      "target":{
+                        "targetType":"page",
+                        "url":"index.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true}]}},
   "masters":{
 },
   "objectPaths":{
@@ -592,4 +655,8 @@
     "6e505ea26b3d4b85a73fb9dbeb4072fd":{
       "scriptId":"u22"},
     "b357e3709dce40639b87ecc2b678a576":{
-      "scriptId":"u23"}}});
+      "scriptId":"u23"},
+    "53a80392e4a54d97942281d612bcfa90":{
+      "scriptId":"u24"},
+    "11ae9074ba57489899d3bde836c22679":{
+      "scriptId":"u25"}}});

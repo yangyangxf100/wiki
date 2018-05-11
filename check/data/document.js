@@ -39,7 +39,11 @@
         "children":[{
             "pageName":"userDetail",
             "type":"Wireframe",
-            "url":"userdetail.html"}]},
+            "url":"userdetail.html"},
+{
+            "pageName":"changePwd",
+            "type":"Wireframe",
+            "url":"changepwd.html"}]},
 {
         "pageName":"系统配置",
         "type":"Wireframe",

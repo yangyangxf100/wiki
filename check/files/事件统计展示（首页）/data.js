@@ -1,6 +1,6 @@
 ﻿$axure.loadCurrentPage({
   "url":"事件统计展示（首页）.html",
-  "generationDate":new Date(1525962190425.2),
+  "generationDate":new Date(1525998070895.43),
   "isCanvasEnabled":false,
   "variables":["OnLoadVariable"],
   "page":{

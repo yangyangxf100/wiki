@@ -1,6 +1,6 @@
 ﻿$axure.loadCurrentPage({
   "url":"index.html",
-  "generationDate":new Date(1525962190300.19),
+  "generationDate":new Date(1525998070619.74),
   "isCanvasEnabled":false,
   "variables":["OnLoadVariable"],
   "page":{
@@ -2572,7 +2572,106 @@
               "adaptiveStyles":{
 }}],
           "images":{
-            "normal~":"resources/images/transparent.gif"}}]}},
+            "normal~":"resources/images/transparent.gif"}},
+{
+          "id":"d7da5babbe6c488e9742adce3c02c9db",
+          "label":"",
+          "type":"buttonShape",
+          "styleType":"h1",
+          "visible":true,
+          "style":{
+            "fontName":"'Applied Font Regular', 'Applied Font'",
+            "fontSize":"14px",
+            "location":{
+              "x":918,
+              "y":91},
+            "size":{
+              "width":85,
+              "height":16}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"51d123f9741f4e3198e127abd88b6bcd",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "fontName":"'Applied Font Regular', 'Applied Font'",
+                "fontSize":"14px",
+                "location":{
+                  "x":918,
+                  "y":91},
+                "size":{
+                  "width":85,
+                  "height":16}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"resources/images/transparent.gif"}},
+{
+          "id":"7b5ab5ba14d747c181d7621cbb74a969",
+          "label":"",
+          "type":"button",
+          "styleType":"button",
+          "visible":true,
+          "style":{
+            "fontName":"'Applied Font Regular', 'Applied Font'",
+            "location":{
+              "x":1020,
+              "y":81},
+            "size":{
+              "width":80,
+              "height":29}},
+          "adaptiveStyles":{
+},
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 login",
+                      "target":{
+                        "targetType":"page",
+                        "url":"login.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true},
+{
+          "id":"7d3fdb7930744a4b810dd47deb464578",
+          "label":"",
+          "type":"button",
+          "styleType":"button",
+          "visible":true,
+          "style":{
+            "fontName":"'Applied Font Regular', 'Applied Font'",
+            "location":{
+              "x":1020,
+              "y":48},
+            "size":{
+              "width":80,
+              "height":29}},
+          "adaptiveStyles":{
+},
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 changePwd",
+                      "target":{
+                        "targetType":"page",
+                        "url":"changepwd.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true}]}},
   "masters":{
 },
   "objectPaths":{
@@ -2825,4 +2924,12 @@
     "2f1338a00d884302b5049d655c14839b":{
       "scriptId":"u123"},
     "cc6e81f245404609b49b0fac1613a3f8":{
-      "scriptId":"u124"}}});
+      "scriptId":"u124"},
+    "d7da5babbe6c488e9742adce3c02c9db":{
+      "scriptId":"u125"},
+    "51d123f9741f4e3198e127abd88b6bcd":{
+      "scriptId":"u126"},
+    "7b5ab5ba14d747c181d7621cbb74a969":{
+      "scriptId":"u127"},
+    "7d3fdb7930744a4b810dd47deb464578":{
+      "scriptId":"u128"}}});

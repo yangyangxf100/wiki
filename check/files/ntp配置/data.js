@@ -1,6 +1,6 @@
 ﻿$axure.loadCurrentPage({
   "url":"ntp配置.html",
-  "generationDate":new Date(1525962190637.21),
+  "generationDate":new Date(1525998071484.69),
   "isCanvasEnabled":false,
   "variables":["OnLoadVariable"],
   "page":{

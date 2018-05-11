@@ -1,6 +1,6 @@
 ﻿$axure.loadCurrentPage({
   "url":"usermaner.html",
-  "generationDate":new Date(1525962190496.2),
+  "generationDate":new Date(1525998071002.72),
   "isCanvasEnabled":false,
   "variables":["OnLoadVariable"],
   "page":{
@@ -1299,7 +1299,137 @@
               "adaptiveStyles":{
 }}],
           "images":{
-            "normal~":"resources/images/transparent.gif"}}]}},
+            "normal~":"resources/images/transparent.gif"}},
+{
+          "id":"c0b77a0ea56547ea93f5d2fd93fd869e",
+          "label":"",
+          "type":"buttonShape",
+          "styleType":"h1",
+          "visible":true,
+          "style":{
+            "fontName":"'Applied Font Regular', 'Applied Font'",
+            "fontSize":"14px",
+            "location":{
+              "x":918,
+              "y":91},
+            "size":{
+              "width":85,
+              "height":16}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"ee26380c4ddd4d62a403460e9eb4d789",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "fontName":"'Applied Font Regular', 'Applied Font'",
+                "fontSize":"14px",
+                "location":{
+                  "x":918,
+                  "y":91},
+                "size":{
+                  "width":85,
+                  "height":16}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"resources/images/transparent.gif"}},
+{
+          "id":"a7d9c6ad48694f808f33265d4d3679f8",
+          "label":"",
+          "type":"button",
+          "styleType":"button",
+          "visible":true,
+          "style":{
+            "fontName":"'Applied Font Regular', 'Applied Font'",
+            "location":{
+              "x":1020,
+              "y":81},
+            "size":{
+              "width":80,
+              "height":29}},
+          "adaptiveStyles":{
+},
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 login",
+                      "target":{
+                        "targetType":"page",
+                        "url":"login.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true},
+{
+          "id":"7bfe0f5e60ed4e8d86994a581f7f3ab6",
+          "label":"",
+          "type":"button",
+          "styleType":"button",
+          "visible":true,
+          "style":{
+            "fontName":"'Applied Font Regular', 'Applied Font'",
+            "location":{
+              "x":1020,
+              "y":48},
+            "size":{
+              "width":80,
+              "height":29}},
+          "adaptiveStyles":{
+},
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 changePwd",
+                      "target":{
+                        "targetType":"page",
+                        "url":"changepwd.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true},
+{
+          "id":"6f6536cfa74e49aa919a026d33e1a064",
+          "label":"",
+          "type":"button",
+          "styleType":"button",
+          "visible":true,
+          "style":{
+            "fontName":"'Applied Font Regular', 'Applied Font'",
+            "location":{
+              "x":650,
+              "y":211},
+            "size":{
+              "width":100,
+              "height":25}},
+          "adaptiveStyles":{
+},
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 userDetail",
+                      "target":{
+                        "targetType":"page",
+                        "url":"userdetail.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true}]}},
   "masters":{
 },
   "objectPaths":{
@@ -1426,4 +1556,14 @@
     "2fa1359436f24ac198a39ff00c2e6111":{
       "scriptId":"u60"},
     "12a17876f38f4db0af4ed0601da18d85":{
-      "scriptId":"u61"}}});
+      "scriptId":"u61"},
+    "c0b77a0ea56547ea93f5d2fd93fd869e":{
+      "scriptId":"u62"},
+    "ee26380c4ddd4d62a403460e9eb4d789":{
+      "scriptId":"u63"},
+    "a7d9c6ad48694f808f33265d4d3679f8":{
+      "scriptId":"u64"},
+    "7bfe0f5e60ed4e8d86994a581f7f3ab6":{
+      "scriptId":"u65"},
+    "6f6536cfa74e49aa919a026d33e1a064":{
+      "scriptId":"u66"}}});

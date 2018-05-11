@@ -1,6 +1,6 @@
 ﻿$axure.loadCurrentPage({
   "url":"事件处置参数配置.html",
-  "generationDate":new Date(1525962190697.21),
+  "generationDate":new Date(1525998071693.24),
   "isCanvasEnabled":false,
   "variables":["OnLoadVariable"],
   "page":{

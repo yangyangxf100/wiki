@@ -1,6 +1,6 @@
 ﻿$axure.loadCurrentPage({
   "url":"事件查询.html",
-  "generationDate":new Date(1525962190408.2),
+  "generationDate":new Date(1525998070849.31),
   "isCanvasEnabled":false,
   "variables":["OnLoadVariable"],
   "page":{
@@ -1382,7 +1382,106 @@
                       "linkType":"current"}]}]}},
           "tabbable":true,
           "images":{
-            "normal~":"images/index/u2.png"}}]}},
+            "normal~":"images/index/u2.png"}},
+{
+          "id":"dfc9978ff8c94109b1b1df324f03869f",
+          "label":"",
+          "type":"buttonShape",
+          "styleType":"h1",
+          "visible":true,
+          "style":{
+            "fontName":"'Applied Font Regular', 'Applied Font'",
+            "fontSize":"14px",
+            "location":{
+              "x":918,
+              "y":91},
+            "size":{
+              "width":85,
+              "height":16}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"0e6804691de648a7b9aea7abe08420a6",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "fontName":"'Applied Font Regular', 'Applied Font'",
+                "fontSize":"14px",
+                "location":{
+                  "x":918,
+                  "y":91},
+                "size":{
+                  "width":85,
+                  "height":16}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"resources/images/transparent.gif"}},
+{
+          "id":"e8f72cd84640440590f6fe11c1df581c",
+          "label":"",
+          "type":"button",
+          "styleType":"button",
+          "visible":true,
+          "style":{
+            "fontName":"'Applied Font Regular', 'Applied Font'",
+            "location":{
+              "x":1020,
+              "y":81},
+            "size":{
+              "width":80,
+              "height":29}},
+          "adaptiveStyles":{
+},
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 login",
+                      "target":{
+                        "targetType":"page",
+                        "url":"login.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true},
+{
+          "id":"09db6493847546d681552c1eb9200001",
+          "label":"",
+          "type":"button",
+          "styleType":"button",
+          "visible":true,
+          "style":{
+            "fontName":"'Applied Font Regular', 'Applied Font'",
+            "location":{
+              "x":1020,
+              "y":48},
+            "size":{
+              "width":80,
+              "height":29}},
+          "adaptiveStyles":{
+},
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 changePwd",
+                      "target":{
+                        "targetType":"page",
+                        "url":"changepwd.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true}]}},
   "masters":{
 },
   "objectPaths":{
@@ -1519,4 +1618,12 @@
     "5bb3a0bf0096408e973256a2f6361a30":{
       "scriptId":"u65"},
     "e63fe4d22a8e45f08f7627c0a18550ac":{
-      "scriptId":"u66"}}});
+      "scriptId":"u66"},
+    "dfc9978ff8c94109b1b1df324f03869f":{
+      "scriptId":"u67"},
+    "0e6804691de648a7b9aea7abe08420a6":{
+      "scriptId":"u68"},
+    "e8f72cd84640440590f6fe11c1df581c":{
+      "scriptId":"u69"},
+    "09db6493847546d681552c1eb9200001":{
+      "scriptId":"u70"}}});

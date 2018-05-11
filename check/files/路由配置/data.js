@@ -1,6 +1,6 @@
 ﻿$axure.loadCurrentPage({
   "url":"路由配置.html",
-  "generationDate":new Date(1525962190594.21),
+  "generationDate":new Date(1525998071335.29),
   "isCanvasEnabled":false,
   "variables":["OnLoadVariable"],
   "page":{

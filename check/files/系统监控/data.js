@@ -1,6 +1,6 @@
 ﻿$axure.loadCurrentPage({
   "url":"系统监控.html",
-  "generationDate":new Date(1525962190831.22),
+  "generationDate":new Date(1525998071922.85),
   "isCanvasEnabled":false,
   "variables":["OnLoadVariable"],
   "page":{
@@ -388,7 +388,106 @@
                       "linkType":"current"}]}]}},
           "tabbable":true,
           "images":{
-            "normal~":"images/index/u2.png"}}]}},
+            "normal~":"images/index/u2.png"}},
+{
+          "id":"64fec2be623540feb0b00da94a1a9069",
+          "label":"",
+          "type":"buttonShape",
+          "styleType":"h1",
+          "visible":true,
+          "style":{
+            "fontName":"'Applied Font Regular', 'Applied Font'",
+            "fontSize":"14px",
+            "location":{
+              "x":918,
+              "y":91},
+            "size":{
+              "width":85,
+              "height":16}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"61b64335a17642acb54582d59e9d9e03",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "fontName":"'Applied Font Regular', 'Applied Font'",
+                "fontSize":"14px",
+                "location":{
+                  "x":918,
+                  "y":91},
+                "size":{
+                  "width":85,
+                  "height":16}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"resources/images/transparent.gif"}},
+{
+          "id":"af082a788b694e808fe2722355ec41e8",
+          "label":"",
+          "type":"button",
+          "styleType":"button",
+          "visible":true,
+          "style":{
+            "fontName":"'Applied Font Regular', 'Applied Font'",
+            "location":{
+              "x":1020,
+              "y":81},
+            "size":{
+              "width":80,
+              "height":29}},
+          "adaptiveStyles":{
+},
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 login",
+                      "target":{
+                        "targetType":"page",
+                        "url":"login.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true},
+{
+          "id":"85308850d1084bec85d41ca7b017fcc5",
+          "label":"",
+          "type":"button",
+          "styleType":"button",
+          "visible":true,
+          "style":{
+            "fontName":"'Applied Font Regular', 'Applied Font'",
+            "location":{
+              "x":1020,
+              "y":48},
+            "size":{
+              "width":80,
+              "height":29}},
+          "adaptiveStyles":{
+},
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 changePwd",
+                      "target":{
+                        "targetType":"page",
+                        "url":"changepwd.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true}]}},
   "masters":{
 },
   "objectPaths":{
@@ -421,4 +520,12 @@
     "e847888b5de54d6291ef0bdc7fce39ca":{
       "scriptId":"u13"},
     "d35656e502434c1e9984f3afef6bc964":{
-      "scriptId":"u14"}}});
+      "scriptId":"u14"},
+    "64fec2be623540feb0b00da94a1a9069":{
+      "scriptId":"u15"},
+    "61b64335a17642acb54582d59e9d9e03":{
+      "scriptId":"u16"},
+    "af082a788b694e808fe2722355ec41e8":{
+      "scriptId":"u17"},
+    "85308850d1084bec85d41ca7b017fcc5":{
+      "scriptId":"u18"}}});

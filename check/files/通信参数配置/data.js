@@ -1,6 +1,6 @@
 ﻿$axure.loadCurrentPage({
   "url":"通信参数配置.html",
-  "generationDate":new Date(1525962190670.21),
+  "generationDate":new Date(1525998071593.98),
   "isCanvasEnabled":false,
   "variables":["OnLoadVariable"],
   "page":{
@@ -382,7 +382,7 @@
               "x":445,
               "y":282},
             "size":{
-              "width":277,
+              "width":276,
               "height":16}},
           "adaptiveStyles":{
 },
@@ -399,7 +399,7 @@
                   "x":445,
                   "y":282},
                 "size":{
-                  "width":277,
+                  "width":276,
                   "height":16}},
               "adaptiveStyles":{
 }}],
@@ -522,7 +522,7 @@
               "x":440,
               "y":215},
             "size":{
-              "width":218,
+              "width":217,
               "height":16}},
           "adaptiveStyles":{
 },
@@ -539,7 +539,7 @@
                   "x":440,
                   "y":215},
                 "size":{
-                  "width":218,
+                  "width":217,
                   "height":16}},
               "adaptiveStyles":{
 }}],
@@ -745,7 +745,7 @@
               "x":445,
               "y":430},
             "size":{
-              "width":277,
+              "width":276,
               "height":16}},
           "adaptiveStyles":{
 },
@@ -762,7 +762,7 @@
                   "x":445,
                   "y":430},
                 "size":{
-                  "width":277,
+                  "width":276,
                   "height":16}},
               "adaptiveStyles":{
 }}],

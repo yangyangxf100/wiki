@@ -1,6 +1,6 @@
 ﻿$axure.loadCurrentPage({
   "url":"网卡配置.html",
-  "generationDate":new Date(1525962190620.21),
+  "generationDate":new Date(1525998071406.48),
   "isCanvasEnabled":false,
   "variables":["OnLoadVariable"],
   "page":{
